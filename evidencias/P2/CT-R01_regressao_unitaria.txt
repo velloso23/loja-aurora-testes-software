@@ -1,0 +1,18 @@
+✔ unitário: abaixo de 200 não há desconto (3.5287ms)
+✔ unitário: exatamente 200 recebe 10% (0.3213ms)
+✔ unitário: quantidade negativa é inválida (0.2919ms)
+✔ unitário: meio centavo arredonda para cima (0.209ms)
+✔ funcional: compra de 300 tem desconto e frete grátis (0.6015ms)
+✔ funcional: abaixo de 300 frete custa 18,50 (0.3275ms)
+✔ unitário: subtotal de 200,01 recebe desconto (0.2201ms)
+✔ unitário: quantidade zero é inválida (0.1969ms)
+✔ funcional: subtotal de 299,99 ainda paga frete (0.347ms)
+✔ funcional: quantidade fracionária é rejeitada (0.4148ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 255.274

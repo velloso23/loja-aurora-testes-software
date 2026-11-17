@@ -1,0 +1,21 @@
+LOJA AURORA - P2
+EVIDENCIA DOS TESTES DE CUPONS
+
+Comando:
+node --test tests/aula03.test.js
+
+RESULTADO DA EXECUCAO
+
+CT01 - Deve recusar cupom vencido: APROVADO (1.6038ms)
+CT02 - Deve recusar cupom futuro: APROVADO (0.254ms)
+CT03 - Deve aceitar cupom valido: APROVADO (0.2315ms)
+CT04 - Deve calcular desconto de 20%: APROVADO (0.354ms)
+
+Total: 4 testes
+Aprovados: 4
+Falhas: 0
+Duracao total: 231.678ms
+
+CONCLUSAO
+As quatro verificacoes automatizadas das regras
+de cupons foram aprovadas.

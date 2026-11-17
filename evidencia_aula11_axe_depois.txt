@@ -1,0 +1,9 @@
+
+Running 1 test using 1 worker
+
+
+=== ACESSIBILIDADE - AULA 11 ===
+Violações encontradas: 0
+  ✓  1 tests\interface\aula11_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade da Loja Aurora (20.0s)
+
+  1 passed (21.9s)

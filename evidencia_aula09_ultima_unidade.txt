@@ -1,0 +1,29 @@
+✖ integração: compra da última unidade zera o estoque (295.5777ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 711.351
+
+✖ failing tests:
+
+test at tests\aula02.test.js:93:1
+✖ integração: compra da última unidade zera o estoque (295.5777ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 5
+  
+      at TestContext.<anonymous> (C:\Users\vello\OneDrive\Área de Trabalho\E-COMERCE TESTE DE SOFTWARE\alunos\tests\aula02.test.js:99:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

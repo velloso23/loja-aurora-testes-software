@@ -1,0 +1,9 @@
+
+Running 1 test using 1 worker
+
+
+=== ACESSIBILIDADE DO LOGIN ===
+Violações encontradas: 0
+  ✓  1 tests\interface\aula11_login_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade do login (4.5s)
+
+  1 passed (6.2s)

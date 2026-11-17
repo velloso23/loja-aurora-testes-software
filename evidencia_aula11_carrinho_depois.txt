@@ -1,0 +1,9 @@
+
+Running 1 test using 1 worker
+
+
+=== ACESSIBILIDADE DO CARRINHO ===
+Violações encontradas: 0
+  ✓  1 tests\interface\aula11_carrinho_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade do carrinho e entrega (5.3s)
+
+  1 passed (7.0s)

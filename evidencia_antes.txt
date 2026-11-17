@@ -1,0 +1,100 @@
+✔ unitário: abaixo de 200 não há desconto (1.4857ms)
+✖ unitário: exatamente 200 recebe 10% (5.0601ms)
+✖ unitário: quantidade negativa é inválida (0.4893ms)
+✖ unitário: meio centavo arredonda para cima (0.4284ms)
+✖ funcional: compra de 300 tem desconto e frete grátis (0.7219ms)
+✔ funcional: abaixo de 300 frete custa 18,50 (0.2616ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 2
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 422.7793
+
+✖ failing tests:
+
+test at tests\aula01.test.js:24:1
+✖ unitário: exatamente 200 recebe 10% (5.0601ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 20
+  
+      at TestContext.<anonymous> (C:\Users\vello\OneDrive\Área de Trabalho\E-COMERCE TESTE DE SOFTWARE\alunos\tests\aula01.test.js:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 20,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\aula01.test.js:28:1
+✖ unitário: quantidade negativa é inválida (0.4893ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (C:\Users\vello\OneDrive\Área de Trabalho\E-COMERCE TESTE DE SOFTWARE\alunos\tests\aula01.test.js:29:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\aula01.test.js:32:1
+✖ unitário: meio centavo arredonda para cima (0.4284ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  20 !== 20.01
+  
+      at TestContext.<anonymous> (C:\Users\vello\OneDrive\Área de Trabalho\E-COMERCE TESTE DE SOFTWARE\alunos\tests\aula01.test.js:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 20,
+    expected: 20.01,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\aula01.test.js:36:1
+✖ funcional: compra de 300 tem desconto e frete grátis (0.7219ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  18.5 !== 0
+  
+      at TestContext.<anonymous> (C:\Users\vello\OneDrive\Área de Trabalho\E-COMERCE TESTE DE SOFTWARE\alunos\tests\aula01.test.js:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 18.5,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

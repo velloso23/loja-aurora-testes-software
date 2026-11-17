@@ -1,0 +1,12 @@
+
+Running 2 tests using 1 worker
+
+  ✓  1 tests\interface\aula02.spec.cjs:4:1 › sistema: cliente faz login e adiciona produtos ao carrinho (6.2s)
+  ✓  2 tests\interface\aula02.spec.cjs:25:1 › sistema: cliente finaliza compra e consulta pedido (8.0s)
+
+  2 passed (18.6s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m

@@ -1,0 +1,21 @@
+
+Running 4 tests using 1 worker
+
+
+=== ACESSIBILIDADE - AULA 11 ===
+Violações encontradas: 0
+  ✓  1 tests\interface\aula11_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade da Loja Aurora (24.9s)
+
+=== ACESSIBILIDADE DO CADASTRO ===
+Violações encontradas: 0
+  ✓  2 tests\interface\aula11_cadastro_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade do cadastro (4.4s)
+
+=== ACESSIBILIDADE DO CARRINHO ===
+Violações encontradas: 0
+  ✓  3 tests\interface\aula11_carrinho_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade do carrinho e entrega (4.9s)
+
+=== ACESSIBILIDADE DO LOGIN ===
+Violações encontradas: 0
+  ✓  4 tests\interface\aula11_login_acessibilidade.spec.cjs:5:1 › Aula 11 - acessibilidade do login (3.8s)
+
+  4 passed (40.7s)

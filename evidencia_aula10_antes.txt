@@ -1,0 +1,5 @@
+Data da evidencia: 2026-10-29T00:24:02.553Z
+Cupom: ANTIGO
+Vencimento: 2026-10-06T23:59:59Z
+Esperado: ok=false
+Obtido: { ok: true }

@@ -1,0 +1,7 @@
+{"entrada":-1,"ok":false,"message":"A quantidade não pode ser zero."}
+{"entrada":0,"ok":false,"message":"A quantidade não pode ser zero."}
+{"entrada":1,"ok":true,"quantity":1}
+{"entrada":2,"ok":true,"quantity":2}
+{"entrada":1.5,"ok":false,"message":"A quantidade deve ser um número inteiro."}
+{"entrada":"abc","ok":false,"message":"A quantidade deve ser um número inteiro."}
+{"entrada":"3","ok":true,"quantity":3}

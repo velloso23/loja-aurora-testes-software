@@ -1,0 +1,12 @@
+✔ CT01 - Deve recusar cupom vencido (1.6682ms)
+✔ CT02 - Deve recusar cupom futuro (0.2729ms)
+✔ CT03 - Deve aceitar cupom valido (0.2314ms)
+✔ CT04 - Deve calcular desconto de 20% (0.3726ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 260.8671
